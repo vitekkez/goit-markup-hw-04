@@ -289,8 +289,28 @@ img {
   flex-basis: calc(100% / 4-30px);
 }
 
-.team-list .item + .item {
+.team-list > .item + .item {
   margin-left: 30px;
+}
+
+.paragraph {
+  margin-bottom: 16px;
+}
+
+/* socisl network buttons */
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social .link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: tomato;
+  display: block;
 }
 
 .team-content {
