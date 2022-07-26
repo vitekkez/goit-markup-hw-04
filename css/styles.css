@@ -303,6 +303,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 10px;
+  outline: 1px solid teal;
 }
 
 .social .link {
@@ -310,7 +311,10 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: tomato;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 1px solid blueviolet;
 }
 
 .team-content {
