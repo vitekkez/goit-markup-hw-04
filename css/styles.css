@@ -303,18 +303,25 @@ img {
   display: flex;
   justify-content: center;
   gap: 10px;
-  outline: 1px solid teal;
 }
 
 .social .link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: tomato;
   display: flex;
   align-items: center;
   justify-content: center;
-  outline: 1px solid blueviolet;
+  color: #afb1b8;
+}
+.team-social-icon {
+  fill: currentColor;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .team-content {
