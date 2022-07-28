@@ -129,16 +129,25 @@ img {
   margin-left: auto;
 }
 
+.contact-up-icon {
+  margin-right: 10px;
+}
+
 .contact-up .item + .item {
   margin-left: 50px;
 }
 
 .contact-up .link {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.contact-up-icon {
+  fill: currentColor;
 }
 
 .contact-up .link:hover,
@@ -360,9 +369,18 @@ img {
   gap: 30px;
   align-items: center;
 }
+
 .clients-link {
   display: flex;
   padding: 16px 32px;
+  color: #afb1b8;
+}
+.clients-link > .link-icon {
+  fill: currentColor;
+}
+
+.clients-link:hover {
+  color: #2196f3;
 }
 
 .clients-list .item {
@@ -375,15 +393,6 @@ img {
 
 .clients-list .item:hover {
   border: 1px solid var(--accent-color);
-}
-
-.link-icon {
-  fill: #afb1b8;
-}
-
-.link-icon:hover,
-.link-icon:focus {
-  fill: #2196f3;
 }
 
 /* footer */
