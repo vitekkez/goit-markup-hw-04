@@ -129,10 +129,6 @@ img {
   margin-left: auto;
 }
 
-.contact-up-icon {
-  margin-right: 10px;
-}
-
 .contact-up .item + .item {
   margin-left: 50px;
 }
@@ -147,6 +143,7 @@ img {
 }
 
 .contact-up-icon {
+  margin-right: 10px;
   fill: currentColor;
 }
 
@@ -334,7 +331,7 @@ img {
 
 .social {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 10px;
 }
 
@@ -418,6 +415,20 @@ img {
   line-height: 1.71;
   font-style: normal;
 }
+
+.aside > .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside-soc {
+  margin-left: 70px;
+}
+.aside-soc > p {
+  margin-bottom: 20px;
+}
+
 .contact-down .link {
   color: var(--third-text-color);
 }
